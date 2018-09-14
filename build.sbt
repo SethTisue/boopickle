@@ -2,9 +2,6 @@ import sbt._
 import Keys._
 import com.typesafe.sbt.pgp.PgpKeys._
 
-scalafmtOnCompile in ThisBuild := true
-scalafmtVersion in ThisBuild := "1.3.0"
-
 val commonSettings = Seq(
   organization := "io.suzaku",
   version := Version.library,
